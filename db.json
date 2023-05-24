@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "title": "this blog only for u",
+      "author": "abdo",
+      "url": "https://www.gimmesomeoven.com/life/blogs-im-reading-and-loving-lately/",
+      "likes": "55",
+      "id": 1
+    },
+    {
+      "title": "abdo",
+      "author": "gamil",
+      "url": "http://localhost:3000/",
+      "likes": "1.00",
+      "id": 2
+    },
+    {
+      "title": "gmail is so easy ya beasy",
+      "author": "saleh",
+      "url": "http://localhost:3000/",
+      "likes": "4",
+      "id": 3
+    }
+  ]
+}

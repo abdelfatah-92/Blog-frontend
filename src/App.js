@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { useState} from "react";
+import Search from "./components/Search";
+import Add from "./components/Add";
+import Delete from "./components/Delete";
+const App = () => {
+  const [blogs, setBlogs] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Search blogs={blogs}/>
+      <Add blogs={blogs} setBlogs={setBlogs}/>
+      <Delete blogs={blogs} setBlogs={setBlogs}/>
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
